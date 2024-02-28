@@ -1,3 +1,11 @@
-.center {
+.text-center {
     text-align: center;
+}
+
+.scrolling {
+    overflow-y: scroll;
+}
+
+.scrolling::-webkit-scrollbar {
+    display: none;
 }
