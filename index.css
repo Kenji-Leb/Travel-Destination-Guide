@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Open Sans';
 }
 
 .example {
@@ -62,12 +61,12 @@ header {
 .landing-sec {
     position: relative;
     text-align: center;
-    color: blue;
+    color: #0B0033;
 }
 
 .cover {
     background-size: cover;
-    opacity: 1;
+    opacity: .8;
     width: 100%;
     height: 700px;
 }
@@ -80,5 +79,25 @@ header {
 }
 
 .landing-sec h1 {
-    font-size: 70px;
+    font-size: 60px;
 }
+
+.icons-sec {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    height: 20px;
+    padding: 20px;
+    margin: 10px;
+}
+
+.icons-sec img {
+    max-width: 120px;
+    max-height: 80px;
+}
+
+.glimpse-sec, .review-sec {
+    display: none;
+}
+
