@@ -131,19 +131,22 @@ header {
 }
 
 .review-sec-div {
-    width: auto;
-    height: auto;
-    padding: 30px;
-    margin: 10px;
+    border-radius: 5px;
+    max-width: 40%;
+    max-height: 20%;
+    padding: 0px;
+    margin: 0px;
 }
 
 .review-sec img{
+    background-size: cover;
     border-radius: 60%;
-    width: 300px;
+    width: 200px;
     height: 200px;
 }
 
 .review-sec p {
+    word-wrap: break-word;
     padding: 10px;
     font-size: 30px;
 }
