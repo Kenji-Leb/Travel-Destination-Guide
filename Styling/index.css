@@ -83,7 +83,6 @@ header {
     width: 100%;
     height: auto;
     padding: 20px;
-    margin: 0px;
     border: 2px solid #EAF27C;
     border-radius: 5px;
 }
@@ -122,7 +121,29 @@ header {
 }
 
 .review-sec {
-    display: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    height: auto;
+    margin: auto;
+    padding: 20px;
 }
 
+.review-sec-div {
+    width: auto;
+    height: auto;
+    padding: 30px;
+    margin: 10px;
+}
 
+.review-sec img{
+    border-radius: 60%;
+    width: 300px;
+    height: 200px;
+}
+
+.review-sec p {
+    padding: 10px;
+    font-size: 30px;
+}
