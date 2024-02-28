@@ -1,0 +1,29 @@
+
+.glimpse-sec {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    height: auto;
+    margin: auto;
+    padding: 20px;
+}
+
+.glimpse-sec-div {
+    width: auto;
+    height: auto;
+    padding: 30px;
+    margin: 10px;
+}
+
+.glimpse-sec img{
+    border-radius: 5px;
+    width: 300px;
+    height: 200px;
+}
+
+.glimpse-sec p {
+    color: #0B0033;
+    padding: 10px;
+    font-size: 30px;
+}
