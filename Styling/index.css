@@ -7,7 +7,7 @@
 header {
     width: 100%;
     height: 20%;
-    margin: auto;
+    margin: 0;
     padding: 20px;
     border: #3c3f58 solid 2px;
     border-radius: 6px;
@@ -51,6 +51,7 @@ header {
 }
 
 .landing-sec {
+    margin: 0;
     position: relative;
     text-align: center;
     color: #0B0033;
@@ -61,6 +62,7 @@ header {
     opacity: .8;
     width: 100%;
     height: 700px;
+    border-radius: 5px;
 }
 
 .centered {
@@ -79,9 +81,11 @@ header {
     flex-direction: row;
     justify-content: space-around;
     width: 100%;
-    height: 20px;
+    height: auto;
     padding: 20px;
-    margin: 10px;
+    margin: 0px;
+    border: 2px solid #EAF27C;
+    border-radius: 5px;
 }
 
 .icons-sec img {
@@ -92,17 +96,29 @@ header {
 .glimpse-sec {
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-evenly;
     width: 100%;
-    height: 20%;
+    height: auto;
     margin: auto;
+    padding: 20px;
+}
+
+.glimpse-sec-div {
+    width: auto;
+    height: auto;
     padding: 30px;
+    margin: 10px;
 }
 
 .glimpse-sec img{
-    width: 100px;
-    height: 80px;
+    border-radius: 5px;
+    width: 300px;
+    height: 200px;
+}
+
+.glimpse-sec p {
+    padding: 10px;
+    font-size: 30px;
 }
 
 .review-sec {
