@@ -1,8 +1,12 @@
 .bgColor1 {
-    background-color: #EAF27C;
+    background-color: #CEFF1A;
+    border: 2px solid #CEFF1A;
+    color: #0B0033;
 }
 
 .bgColor2 {
-    background-color: #88A13E;
+    background-color: #78AFC6;
+    color: #0B0033;
+    border: 1px solid #78AFC6;
 }
 

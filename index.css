@@ -31,7 +31,6 @@
     width: 100%;
     height: auto;
     padding: 20px;
-    border: 2px solid #EAF27C;
     border-radius: 5px;
 }
 
@@ -64,6 +63,7 @@
 }
 
 .glimpse-sec p {
+    color: #0B0033;
     padding: 10px;
     font-size: 30px;
 }
@@ -96,5 +96,5 @@
 .review-sec p {
     word-wrap: break-word;
     padding: 10px;
-    font-size: 30px;
+    font-size: 25px;
 }
